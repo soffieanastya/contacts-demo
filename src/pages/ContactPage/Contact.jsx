@@ -4,6 +4,7 @@ const Contact = ({ contact }) => (
   <div className="contact">
     <p>{contact.name}</p>
     <p className="phone">{contact.phoneNumber}</p>
+    <p className="phone">{contact.email}</p>
   </div>
 );
 
