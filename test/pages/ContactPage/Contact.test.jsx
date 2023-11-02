@@ -15,4 +15,9 @@ describe('Contact', () => {
     expect(screen.getByText(contact.name)).toBeDefined();
     expect(screen.getByText(contact.phoneNumber)).toBeDefined();
   });
+
+  it('should render Felix and 123', () => {
+    expect(screen.getByText('Felix')).toBeDefined();
+    expect(screen.getByText('123')).toBeDefined();
+  });
 });
